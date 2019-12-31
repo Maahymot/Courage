@@ -19,7 +19,6 @@
         <ImageButton
             android:layout_width="140dp"
             android:layout_height="140dp"
-            android:text="محاسبه دما"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
             android:clickable="true"

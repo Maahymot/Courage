@@ -6,10 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -21,8 +18,8 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-        final Button button = (Button) findViewById(R.id.button);
-        final Button button2 = (Button) findViewById(R.id.button2);
+        final ImageButton button = (ImageButton) findViewById(R.id.button);
+        final ImageButton button2 = (ImageButton) findViewById(R.id.button2);
 
 
         button.setOnClickListener(new View.OnClickListener() {
