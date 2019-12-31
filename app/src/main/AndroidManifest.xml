@@ -9,7 +9,6 @@
         android:theme="@style/AppTheme" >
 
 
-
         <activity
             android:name=".MainActivity"
             android:label="ToolBox" >
@@ -32,6 +31,15 @@
         <activity
             android:name=".BmiActivity"
             android:label="محاسبه شاخص توده بدنی" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".WeightActivity"
+            android:label= "محاسبه واحدهای وزن">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
