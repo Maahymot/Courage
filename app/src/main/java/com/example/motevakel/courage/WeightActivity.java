@@ -46,47 +46,15 @@ public class WeightActivity extends ActionBarActivity {
                     editText.getText().clear();
                     button.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) {
-                            float c = Float.parseFloat(editText2.getText().toString());
-                            int f = Math.round((c*9/5)+32);
-                            String str = String.valueOf(f);
+                            float k = Float.parseFloat(editText2.getText().toString());
+                            float p = Math.round((k)/(0.454));
+                            String str = String.valueOf(p);
                             editText.setText(str);
                         }
                     });
                 }
             }
         });
-
-
-
-        editText3.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View view, boolean hasFocus) {
-                if (hasFocus) {
-
-                    editText4.getText().clear();
-                    button2.setOnClickListener(new View.OnClickListener() {
-                        public void onClick(View v) {
-                            float k = Float.parseFloat(editText3.getText().toString());
-                            int c2 = Math.round(k-273);
-                            String str2 = String.valueOf(c2);
-                            editText4.setText(str2);
-                        }
-                    });
-
-                } else {
-                    editText3.getText().clear();
-                    button2.setOnClickListener(new View.OnClickListener() {
-                        public void onClick(View v) {
-                            float c2 = Float.parseFloat(editText4.getText().toString());
-                            int k = Math.round(c2+273);
-                            String str2 = String.valueOf(k);
-                            editText3.setText(str2);
-                        }
-                    });
-                }
-            }
-        });
-
 
 
     }

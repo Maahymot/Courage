@@ -83,69 +83,6 @@
                 android:layout_gravity="center_horizontal"
                 android:paddingTop="20dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="درجه حرارت به کلوین"
-                android:id="@+id/textView4"
-                android:layout_gravity="right"
-                android:textColor="#ff000000"
-                android:textSize="16dp"
-                android:paddingTop="20dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/editText3"
-                android:layout_gravity="right"
-                android:textSize="16dp"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView4"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="20dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="درجه حرارت به سیلیسیوس"
-                android:id="@+id/textView5"
-                android:layout_gravity="right"
-                android:textColor="#ff000000"
-                android:textSize="16dp"
-                android:paddingTop="20dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/editText4"
-                android:layout_gravity="right"
-                android:textSize="16dp"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView5"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="20dp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="محاسبه"
-                android:id="@+id/button2"
-                android:layout_gravity="center_horizontal"
-                android:clickable="true"
-                android:singleLine="false" />
-
 
         </LinearLayout>
 
