@@ -36,8 +36,8 @@ public class WeightActivity extends ActionBarActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) {
                             float p = Float.parseFloat(editText.getText().toString());
-                            int c = Math.round((f-32)*5/9);
-                            String str = String.valueOf(c);
+                            float k = Math.round(p*(0.454));
+                            String str = String.valueOf(k);
                             editText2.setText(str);
                         }
                     });
