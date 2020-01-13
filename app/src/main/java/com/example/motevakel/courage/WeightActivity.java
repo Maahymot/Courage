@@ -21,9 +21,6 @@ public class WeightActivity extends ActionBarActivity {
         final EditText editText = (EditText) findViewById(R.id.editText);
         final EditText editText2 = (EditText) findViewById(R.id.editText2);
         final Button button = (Button) findViewById(R.id.button);
-        final EditText editText3 = (EditText) findViewById(R.id.editText3);
-        final EditText editText4 = (EditText) findViewById(R.id.editText4);
-        final Button button2 = (Button) findViewById(R.id.button2);
 
 
 
@@ -36,7 +33,7 @@ public class WeightActivity extends ActionBarActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) {
                             float p = Float.parseFloat(editText.getText().toString());
-                            float k = Math.round(p*(0.454));
+                            float k = Math.round(p*(0.4545));
                             String str = String.valueOf(k);
                             editText2.setText(str);
                         }
@@ -47,7 +44,7 @@ public class WeightActivity extends ActionBarActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         public void onClick(View v) {
                             float k = Float.parseFloat(editText2.getText().toString());
-                            float p = Math.round((k)/(0.454));
+                            float p = Math.round((k)/(0.4545));
                             String str = String.valueOf(p);
                             editText.setText(str);
                         }

@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
 
         final ImageButton button = (ImageButton) findViewById(R.id.button);
         final ImageButton button2 = (ImageButton) findViewById(R.id.button2);
+        final ImageButton button3 = (ImageButton) findViewById(R.id.button3);
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +32,6 @@ public class MainActivity extends ActionBarActivity {
                 } catch(Exception e) {
                     e.printStackTrace();
                 }
-
 
             }
         });
@@ -51,6 +51,20 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v2) {
+
+                try {
+                    Intent k3 = new Intent(MainActivity.this, WeightActivity.class);
+                    startActivity(k3);
+                } catch(Exception e3) {
+                    e3.printStackTrace();
+                }
+
+
+            }
+        });
 
 
 
